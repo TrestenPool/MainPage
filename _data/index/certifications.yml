@@ -1,0 +1,15 @@
+# links section data
+- name: AWS Certified Cloud Practicioner
+  desc: certified
+  website: https://www.google.com
+  photo: /static/assets/img/landing/aws-certified-cloud-pract.png
+
+- name: Microsoft Azure cloud fundamentals
+  desc: certified
+  website: https://www.google.com
+  photo: /static/assets/img/landing/azure-fundamentals.png
+
+# - name: Microsoft Azure developer associate
+#   desc: currently studying for
+#   website: https://www.google.com
+#   photo: /static/assets/img/landing/headshot.jpg
