@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to edit the blog"
-date: 2017-01-31
+date: 2025-04-01
 desc: "Describes how to edit the blog using docker containers"
 keywords: "Jekyll,gh-pages,website,blog"
 categories: [Misc]
@@ -20,5 +20,5 @@ icon: icon-html
 
 
 4. Now we can run our site in the container and be able to navigate to the site using the mapped port
-  - `Jekyll serve`
+  - `jekyll serve --watch --livereload --force-polling`
   - http://localhost:4000/MainSite
