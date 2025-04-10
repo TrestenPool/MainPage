@@ -1,15 +1,15 @@
 # links section data
 - name: AWS Certified Cloud Practicioner
-  desc: certified
-  website: https://www.google.com
+  desc: "Received: Aug 2023"
+  website: https://www.credly.com/badges/70b777ce-3bd5-42a3-94e4-379d01667958
   photo: /static/assets/img/landing/aws-certified-cloud-pract.png
 
 - name: Microsoft Azure cloud fundamentals
-  desc: certified
-  website: https://www.google.com
+  desc: "Received: Aug 2022"
+  website: https://www.credly.com/badges/0be18762-a549-467b-9f9c-6a77cccbc69e
   photo: /static/assets/img/landing/azure-fundamentals.png
 
-# - name: Microsoft Azure developer associate
-#   desc: currently studying for
-#   website: https://www.google.com
-#   photo: /static/assets/img/landing/headshot.jpg
+- name: Udemy (The Web developer Bootcamp 2022)
+  desc: "Received: Jan 2023"
+  website: https://www.udemy.com/certificate/UC-dd0520a4-ecd3-4530-9187-107bc7820818/
+  photo: /static/assets/img/landing/web-developer-bootcamp.png
