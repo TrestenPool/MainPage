@@ -27,7 +27,7 @@ author:  # change following line to your infomation.
     - name: icon-shell
     - name: fa-database
   skill_icon2:
-    - name: fa-linux
+    - name: icon-csharp
     - name: icon-mssql
   desc: Mid level software engineer. Specializing in Dotnet Core, powershell and Sql server
 

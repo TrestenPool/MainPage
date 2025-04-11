@@ -6,8 +6,8 @@
 - name: Powershell
   href: /powershell/
 
-- name: Linux
-  href: /linux/
+- name: Csharp
+  href: /csharp/
 
 - name: HTML
   href: /html/
