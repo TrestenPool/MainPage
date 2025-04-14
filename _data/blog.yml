@@ -6,8 +6,11 @@
 - name: Powershell
   href: /powershell/
 
-- name: Csharp
+- name: C#
   href: /csharp/
+
+- name: Dotnet
+  href: /dotnet/
 
 - name: HTML
   href: /html/
