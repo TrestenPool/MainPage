@@ -16,7 +16,6 @@ icon: icon-csharp
   - [Input Tag Helpers](#input-tag-helpers)
   - [Adding datatype to the Model](#adding-datatype-to-the-model)
 
-
 # About
 ---
 
@@ -34,6 +33,7 @@ icon: icon-csharp
 
 What are tag helpers
   - classes that can be invoked as an html tag or an html attribute
+  - processed at runtime on the server. When the razor view is compiled, asp.net core looks for html elements with special attributes like asp-for and asp-controller, they are parsed and transformed into the html output sent to the client
 
 Example
   - `<input aspfor="ModelProperty">`
@@ -101,8 +101,23 @@ is equivalient to ...
 ---
 
 ```
-Hello world
+  public class PersonAddRequest{
+    // HERE WE ARE ADDING THE DATATYPE THAT WILL BE USED IN THE RENDERING OF THE VIEW
+    [DataType(DataType.Text)]
+    public string? PersonName { get; set; }
+
+    // HERE WE ARE ADDING THE DATATYPE THAT WILL BE USED IN THE RENDERING OF THE VIEW
+    [DataType(DataType.EmailAddress)]
+    [Required(ErrorMessage = "Email can't be blank")]
+    public string? Email { get; set; }
+
+    public Person ToPerson() {
+      // ...
+    }
+  }
 ```
+
+<img src="{{ site.img_path }}/Udemy-Dotnet-Core-Ultimate-Guide/dev-tools.gif" width="100%">
 
 ---
 <br><br>
