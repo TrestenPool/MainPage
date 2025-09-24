@@ -7,3 +7,10 @@
   repo: SSRS-Analyzer
   img: /static/assets/img/landing/ssrs_ps.jpg
   desc: Powershell script that crawls an SSRS repo via the Api
+
+  - name: PS-Disk-Cleaner
+  i18n: jalpc
+  gh_user: TrestenPool
+  repo: PS-Disk-Cleaner
+  img: /static/assets/img/landing/ssrs_ps.jpg
+  desc: Powershell script that cleans up variety of things on the system 
